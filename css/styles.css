@@ -147,6 +147,11 @@ img {
 .contact-link {
   display: flex;
   align-items: center;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-link {
@@ -539,7 +544,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--text-color);
-  margin-bottom: 28px;
+  margin-bottom: 10px;
 }
 .modal-form-input {
   width: 100%;
@@ -650,10 +655,10 @@ img {
   display: flex;
   align-items: baseline;
 }
-.subscribe {
+/* .subscribe {
   padding-top: 72px;
   padding-bottom: 100px;
-}
+} */
 .subscribe-title {
   font-family: var(--main-font);
   font-weight: var(--main-font-weight);
